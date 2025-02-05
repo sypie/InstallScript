@@ -14,6 +14,9 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/17.0/odoo_install.sh
 ```
 ##### 2. Modify the parameters as you wish.
+
+Open the odoo_install.sh file with nano to make changes.
+
 There are a few things you can configure, this is the most used list:<br/>
 ```OE_USER``` will be the username for the system user.<br/>
 ```GENERATE_RANDOM_PASSWORD``` if this is set to ```True``` the script will generate a random password, if set to ```False```we'll set the password that is configured in ```OE_SUPERADMIN```. By default the value is ```True``` and the script will generate a random and secure password.<br/>
